@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  display: grid;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+  width: 90vw;
+  margin-bottom: 0.2rem;
+}
+.search p {
+  font-size: 18px;
+}
+.search input {
+  width: 20rem;
+  height: 1.4rem;
+  display: block;
+  margin: 0 auto;
+}
+.search button {
+  height: 1.4rem;
+  width: 10%;
+  font-size: 14px;
+}
+.triple {
+  display: flex;
+}
+.left {
+  width: 37%;
+  background-color: rgb(126, 235, 226);
+  display: grid;
+  justify-content: center;
+  padding: 0.2rem;
+}
+.left p {
+  font-size: 16px;
+}
+.left a {
+  font-size: 16px;
+}
+.middle {
+  width: 21%;
+  background-color: rgb(105, 201, 190);
+  margin-left: 0.1rem;
+  display: grid;
+  justify-content: center;
+}
+.middle a {
+  font-size: 14px;
+}
+.right {
+  width: 42%;
+  margin-left: 0.1rem;
+  background-color: rgb(80, 189, 176);
+  display: grid;
+  justify-content: center;
+}
+.right span {
+  font-size: 13px;
+  text-align: center;
+}
+.right input {
+  height: 1.3rem;
+}
+.right input::placeholder {
+  color: black;
+}
+.subs {
+  display: flex;
+  justify-content: center;
+}
+.subs button {
+  width: 5rem;
+  height: 1.4rem;
+}
+.subs a {
+  font-size: 14px;
+  margin-left: 0.5rem;
+  align-items: center;
+  display: flex;
+}
+
+a {
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 13px;
+}
